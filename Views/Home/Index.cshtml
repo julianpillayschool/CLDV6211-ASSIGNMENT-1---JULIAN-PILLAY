@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Welcome to EventEase";
+}
+
+<div class="jumbotron text-center" style="background: linear-gradient(to right, #004080, #ff0000); color: white; padding: 40px;">
+    <h1 class="display-4">Welcome to EventEase</h1>
+    <p class="lead">Your one-stop solution for managing Venues, Events, and Bookings.</p>
+    <hr class="my-4" style="border-color:white;" />
+    <p>Explore our system and see how easy it is to organize your next big occasion.</p>
+    <a class="btn btn-primary btn-lg" asp-controller="Venue" asp-action="Index">View Venues</a>
+    @* <a class="btn btn-danger btn-lg" asp-controller="Events" asp-action="Index">View Events</a> *@
+    @* <a class="btn btn-info btn-lg" asp-controller="Bookings" asp-action="Index">View Bookings</a> *@
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card border-primary mb-3">
+            <div class="card-header bg-primary text-white">Venues</div>
+            <div class="card-body">
+                <p class="card-text">Browse our list of venues with capacity, location, and images.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card border-danger mb-3">
+            <div class="card-header bg-danger text-white">Events</div>
+            <div class="card-body">
+                <p class="card-text">Check out upcoming events with dates and descriptions.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card border-info mb-3">
+            <div class="card-header bg-info text-white">Bookings</div>
+            <div class="card-body">
+                <p class="card-text">Manage your bookings and see what’s scheduled.</p>
+            </div>
+        </div>
+    </div>
+</div>
