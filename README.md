@@ -8,3 +8,5 @@ Screenshots of application running on localhost:
 <img width="1270" height="830" alt="image" src="https://github.com/user-attachments/assets/3c408916-ecd4-47aa-9af9-77fba1599e65" />
 <img width="1178" height="814" alt="image" src="https://github.com/user-attachments/assets/8d112c60-4773-44c0-9d95-52112b2db51a" />
 <img width="1186" height="829" alt="image" src="https://github.com/user-attachments/assets/9b6f548e-57b3-46d3-b9b3-ddbfb80469a3" />
+ERD Image:
+<img width="1056" height="633" alt="ERD CLOUD ASSIGNMENT" src="https://github.com/user-attachments/assets/e9a9e860-7c3a-43f9-910c-da113caab72b" />
